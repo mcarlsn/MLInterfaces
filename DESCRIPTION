@@ -17,7 +17,7 @@ Imports: gdata, pls, sfsmisc, MASS, rpart, rda, genefilter, fpc, ggvis,
 Suggests: class, e1071, ipred, randomForest, gpls, pamr,
         nnet, ALL, hgu95av2.db, som, rgl,
         hu6800.db, lattice, caret (>= 5.07), golubEsets, ada,
-        keggorthology, kernlab, mboost, party
+        keggorthology, kernlab, mboost, party, BiocStyle, knitr
 Enhances: parallel
 LazyLoad: yes
 Collate: AllClasses.R RAB.R pplot.R varImp.R xval.R MLearn.R
@@ -27,3 +27,4 @@ Collate: AllClasses.R RAB.R pplot.R varImp.R xval.R MLearn.R
 	 partPlot.R clDesign.R plsdaI.R performance-analytics.R hcw.R 
 	 mlw.R pv.R plspinHcube.R
 biocViews: Classification, Clustering
+VignetteBuilder: knitr
